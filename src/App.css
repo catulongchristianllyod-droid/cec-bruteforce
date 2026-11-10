@@ -1,0 +1,124 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b1120;
+  color: #f8fafc;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  background:
+    radial-gradient(circle at top, #1e3a5f, transparent 55%),
+    #0b1120;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 430px;
+  padding: 40px 32px;
+  background: #151f32;
+  border: 1px solid #334155;
+  border-radius: 18px;
+  box-shadow: 0 20px 60px #0005;
+}
+
+.shield {
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 28px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #94a3b8;
+  font-size: 14px;
+  margin: 12px 0 32px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 9px;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 22px;
+  border: 1px solid #475569;
+  border-radius: 9px;
+  background: #0f172a;
+  color: white;
+  font-size: 15px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #38bdf8;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background: #0284c7;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0369a1;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.message {
+  margin-top: 20px;
+  padding: 13px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.message.error {
+  background: #450a0a;
+  color: #fca5a5;
+}
+
+.message.success {
+  background: #052e16;
+  color: #86efac;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #64748b;
+  font-size: 12px;
+}
